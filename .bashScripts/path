@@ -1,0 +1,21 @@
+# setting up the PATH environment variable
+
+test -f .variables && source .variables
+
+PATH="${HOME}/.cabal/bin:$PATH"
+PATH="${HOME}/.gem/ruby/1.8/bin:$PATH"
+PATH="${HOME}/bin:$PATH"
+
+PATH="/usr/bin/:$PATH"
+PATH="/usr/local/pgsql/bin:$PATH"
+# Use Maven 2
+#PATH="/usr/share/java/maven-2.2.1/bin:$PATH"
+# LaTeX
+PATH="/usr/local/texlive/2011/bin/universal-darwin:$PATH"
+PATH="/opt/local/bin:$PATH"
+PATH="/usr/local/sbin:$PATH"
+
+# setting up the MANPATH environment variable
+
+export PATH
+#export MANPATH

@@ -1,0 +1,6 @@
+# The following three lines have been added by UDB DB2.
+if [ -f /Users/mayr/sqllib/db2profile ]; then
+    . /Users/mayr/sqllib/db2profile
+fi
+
+

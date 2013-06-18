@@ -1,0 +1,3 @@
+# KPathSea latex
+TEXINPUTS=".:/Users/mayr/.texmf/tex/latex//:"
+export TEXINPUTS

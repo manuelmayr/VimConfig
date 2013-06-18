@@ -1,0 +1,2 @@
+export GEM_PRIVATE_KEY='$HOME/.ssh/gem-private-key.pem'
+export GEM_CERTIFICATE_CHAIN='$HOME/.ssh/gem-public-cert.pem'

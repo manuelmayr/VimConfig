@@ -1,0 +1,15 @@
+alias ".."="cd .."
+alias "..."="cd ../.."
+alias "...."="cd ../../.."
+alias "....."="cd ../../../.."
+alias ll="ls -l"
+alias l='ls'
+
+INFHOME="informatik.uni-tuebingen.de"
+alias website="ssh -L 3010:dbbox13:3010 mayr@sshgw.$INFHOME"
+alias sshgw="ssh mayr@sshgw.$INFHOME"
+
+alias move="mv ~/Downloads/*.flv ~/Movies/Theatrical"
+
+alias worktunnel='ssh -N -F ~/.ssh/remoteConfig workTunnel'
+alias sshw='ssh -F ~/.ssh/remoteConfig '

@@ -1,0 +1,5 @@
+# overload the cd command, because of spitting out
+# unusual information
+function cd {
+  command cd "$@" > /dev/null
+}

@@ -1,0 +1,9 @@
+HTTP_PROXY=""
+http_proxy=$HTTP_PROXY
+FTP_PROXY=$HTTP_PROXY
+ftp_proxy=$HTTP_PROXY
+
+export HTTP_PROXY
+export http_proxy
+export FTP_PROXY
+export ftp_proxy

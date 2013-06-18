@@ -1,0 +1,2 @@
+export MAGLEV_HOME=/Users/mayr/maglev
+export PATH=$MAGLEV_HOME/bin:$PATH

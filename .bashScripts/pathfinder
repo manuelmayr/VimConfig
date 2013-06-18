@@ -1,0 +1,13 @@
+# Pathfinder specific
+DEVELOPMENT="/Users/mayr/Science"
+PATHFINDER_CURRENT="$DEVELOPMENT/Pathfinder"
+
+# MANPATH="$PATHFINDER_CURRENT/clients/share/man:$MANPATH"
+
+DYLD_LIBRARY_PATH="$PATHFINDER_CURRENT/lib:$LD_LIBRARY_PATH"
+
+
+export PATH
+export DYLD_LIBRARY_PATH
+export MANPATH
+export PATH="${PATHFINDER_CURRENT}/bin:$PATH"

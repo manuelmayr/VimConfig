@@ -1,0 +1,7 @@
+# prevent multisession history problem
+shopt -s histappend
+
+# enlarge bash history
+export HISTSIZE=100000
+
+# prevent from accidentally exiting the bash
